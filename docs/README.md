@@ -4,7 +4,7 @@
 
 # Dynamic Delegate (C++)
 
-Define a **dynamic delegate** like in the Unreal framework, but without using the Unreal framework! The delegate can be subscribed by a pair of an Object\* and a function to call on the object. Broadcast() will call the functions on the respective objects.
+Define a **dynamic delegate** like in the Unreal framework, but without using the Unreal framework! The delegate can be subscribed by a pair of a YourBaseClass\* and a function to call on the base class. Broadcast() will call the functions on the respective objects.
 **You will find the useage below and the source code in the [repository](https://github.com/OgoxHammerschild/OgoxHammerschild.github.io/blob/master/Composition/Delegate.h)**.    
 ### [View Delegate Source Code on GitHub](https://github.com/OgoxHammerschild/OgoxHammerschild.github.io/blob/master/Composition/Delegate.h)
 
