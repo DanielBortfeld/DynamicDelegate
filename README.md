@@ -16,8 +16,8 @@ Define a **dynamic delegate** like in the Unreal framework, but without using th
 
 void GameObject::Destroy()
 {
-	std::cout << Name << " was destroyed" << std::endl;
-	delete this;
+    std::cout << Name << " was destroyed" << std::endl;
+    delete this;
 }
 
 // Main.cpp
@@ -28,16 +28,16 @@ DECLARE_DELEGATE(DestroyDelegate)
 
 int main()
 {
-	DestroyDelegate Destroy;
+    DestroyDelegate Destroy;
     
-	GameObject* gameObject2 = new GameObject("GO 1");
-	GameObject* gameObject3 = new GameObject("GO 2");
-	GameObject* gameObject4 = new GameObject("GO 3");
+    GameObject* gameObject2 = new GameObject("GO 1");
+    GameObject* gameObject3 = new GameObject("GO 2");
+    GameObject* gameObject4 = new GameObject("GO 3");
     
     printf_s("Adding function GameObject::Destroy of GO 1, 2 & 3 to delegate Destroy...\n");
-	Destroy.Add<GameObject>(gameObject2, &GameObject::Destroy);
-	Destroy.Add<GameObject>(gameObject3, &GameObject::Destroy);
-	Destroy.Add<GameObject>(gameObject4, &GameObject::Destroy);
+    Destroy.Add<GameObject>(gameObject2, &GameObject::Destroy);
+    Destroy.Add<GameObject>(gameObject3, &GameObject::Destroy);
+    Destroy.Add<GameObject>(gameObject4, &GameObject::Destroy);
     
     // ...
     
