@@ -104,7 +104,7 @@ public: \
 EventMap handler = eventListener; \
 for (auto& function : handler) \
 { \
-	for (int i = 0; i < function->Value.size(); ++i) \
+	for (size_t i = 0; i < function->Value.size(); ++i) \
 	{ \
 		if (function->Value[i] != nullptr) \
 		{ \
