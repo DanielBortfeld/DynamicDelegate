@@ -1,12 +1,12 @@
-[Back to Main Page](https://ogoxhammerschild.github.io/)
+[Back to Main Page](https://danielbortfeld.github.io/)
 
 <a name="Dynamic_Delegate"/>
 
 # Dynamic Delegate (C++)
 
 Define a **dynamic delegate** like in the Unreal framework, but without using the Unreal framework! The delegate can be subscribed by a pair of a YourBaseClass\* and a function to call on the base class. Broadcast() will call the functions on the respective objects.
-**You will find the useage below and the source code in the [repository](https://github.com/OgoxHammerschild/OgoxHammerschild.github.io/blob/master/Composition/Delegate.h)**.    
-### [View Delegate Source Code on GitHub](https://github.com/OgoxHammerschild/OgoxHammerschild.github.io/blob/master/Composition/Delegate.h)
+**You will find the useage below and the source code in the [repository](https://github.com/DanielBortfeld/DanielBortfeld.github.io/blob/master/Composition/Delegate.h)**.    
+### [View Delegate Source Code on GitHub](https://github.com/DanielBortfeld/DanielBortfeld.github.io/blob/master/Composition/Delegate.h)
 
 ```c++
 // (c) Daniel Bortfeld 2016 - 2017
@@ -58,10 +58,10 @@ GO 3 was destroyed
 
 Further examples:   
 
-* [Etos Videos](https://ogoxhammerschild.github.io/Etos/)    
-* [CollisionManager for the MonoGame-Framework (C#)](https://ogoxhammerschild.github.io/Collision/)    
-* [Pathfinding in the Console (C++)](https://ogoxhammerschild.github.io/Console-Pathfinding/)    
+* [Etos Videos](https://DanielBortfeld.github.io/Etos/)    
+* [CollisionManager for the MonoGame-Framework (C#)](https://DanielBortfeld.github.io/Collision/)    
+* [Pathfinding in the Console (C++)](https://DanielBortfeld.github.io/Console-Pathfinding/)    
 
 ***    
 
-[Back to Main Page](https://ogoxhammerschild.github.io/)   
+[Back to Main Page](https://DanielBortfeld.github.io/)   
